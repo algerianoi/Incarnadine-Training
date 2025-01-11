@@ -51,6 +51,18 @@ document.getElementById("password").addEventListener("keyup", function (event) {
     }
 });
 
+function loadUnitNotes(id){
+    let notes = localStorage.getItem(`${id}-notes`);
+    if(notes){
+        return notes;
+    }
+    return "";
+}
+
+function setUnitNotes(id){
+    let notes = localStorage.setItem(`${id}-notes`, document.getElementById(`${id}-notes`).value);
+}
+
 function addCategories(categories) {
     categories.forEach(category => {
         let to_append = `<div class="category"><h2>${category.name}</h2><div class="units-content">`;
@@ -61,6 +73,7 @@ function addCategories(categories) {
                     <br>
                     <span class="unit-id">${unit.id}</span>
                     </h3>
+                    <input class="notes-input" placeholder="Add your notes here" onkeyup="setUnitNotes('${unit.id}')" value="${loadUnitNotes(unit.id)}" id="${unit.id}-notes"></input>
                     
                     <span class="req"></span>
                     <br>

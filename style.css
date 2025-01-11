@@ -134,6 +134,18 @@ input::placeholder{
     color: #be6273;
 }
 
+.notes-input{
+    background: transparent;
+    border: none;
+    margin: 0 0 0 0;
+    width: calc(100% - 20px);
+}
+
+.notes-input:focus{
+    border: none;
+    outline: none;
+}
+
 @media only screen and (max-width: 1650px) {
 
     .units-content {
