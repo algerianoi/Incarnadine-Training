@@ -77,7 +77,7 @@ function addCategories(categories) {
                     
                     <span class="req"></span>
                     <br>
-                    <a class="unit-btn" href="${unit.link}">ACCESS NOW</a>
+                    <a class="unit-btn" target="_blank" href="${unit.link}">ACCESS NOW</a>
                 </div>
             `;
         });
