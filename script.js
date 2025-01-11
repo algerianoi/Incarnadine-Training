@@ -1,16 +1,19 @@
 let url = 'units-lvl1.json';
-
 let content = document.getElementById("units");
 
 fetch(url)
     .then(res => res.json())
     .then(categories => {
-
         addCategories(categories);
+
+        const savedPassword = localStorage.getItem('savedPassword');
+        if (savedPassword) {
+            document.getElementById('password').value = savedPassword;
+            loadProtectedJSON();
+        }
 
     })
     .catch(err => console.log(err));
-
 
 async function loadProtectedJSON() {
     const password = document.getElementById('password').value;
@@ -30,7 +33,9 @@ async function loadProtectedJSON() {
             throw new Error('Incorrect password.');
         }
 
-        categories = JSON.parse(decryptedData);
+        localStorage.setItem('savedPassword', password);
+
+        const categories = JSON.parse(decryptedData);
         addCategories(categories);
         document.getElementById("unlock").style.display = "none";
 
@@ -40,15 +45,13 @@ async function loadProtectedJSON() {
     }
 }
 
-
-document.getElementById("password").addEventListener("keyup", function(event) {
+document.getElementById("password").addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
         loadProtectedJSON();
     }
 });
 
-
-function addCategories(categories){
+function addCategories(categories) {
     categories.forEach(category => {
         let to_append = `<div class="category"><h2>${category.name}</h2><div class="units-content">`;
         category.units.forEach(unit => {
