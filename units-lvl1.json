@@ -28,5 +28,160 @@
                 "link": "https://drive.google.com/file/d/1vTG_WTKnX6ZJhGy3JeJS9D1_69YxgYkV/view"
             }
         ]
+    },
+    {
+        "name": "Incarnadine II",
+        "units": [
+            {
+                "name": "Prefix Sums",
+                "id": "INCA02-prefixsums",
+                "link": "https://drive.google.com/file/d/1PPwlU0LlJGEchOpHBix-4nPfs7ySi82w/view"
+            },
+            {
+                "name": "Greedy Algorithms",
+                "id": "INCA02-greedy",
+                "link": "https://drive.google.com/file/d/1haIws_QIYPM7eeG71VJgRhCLFZ9gZkxc/view"
+            },
+            {
+                "name": "Sorting Algorithms",
+                "id": "INCA02-sorting",
+                "link": "https://drive.google.com/file/d/1Z0rEvyTdcW2D991HpvDnB3nhZNSNHKk2/view"
+            },
+            {
+                "name": "Standard Library Data Structures",
+                "id": "INCA02-stlds",
+                "link": "https://drive.google.com/file/d/1Ka7q4EtGyYkK0uNkwdfmCmZggs6v6x0C/view"
+            },
+            {
+                "name": "The Two Pointers Technique",
+                "id": "INCA02-twopointers",
+                "link": "https://drive.google.com/file/d/1RyC0WfPaFs_lia1A9BvFBCxHSbS-Tdu1/view"
+            },
+            {
+                "name": "Dynamic Programming",
+                "id": "INCA02-dynamicprogramming",
+                "link": "https://drive.google.com/file/d/1QbC1Njcez9rEZfUm0XfK0h2KVez5Jhk7/view"
+            },
+            {
+                "name": "Divide and Conqueer",
+                "id": "INCA02-divideandconqueer",
+                "link": "https://drive.google.com/file/d/1HV4vPfn3bK7Yty3zYPW3AsqdYPlCeT__/view"
+            },
+            {
+                "name": "Basic Counting",
+                "id": "INCA02-countingbasics",
+                "link": "https://drive.google.com/file/d/1OgkIcRmQnq4qRsJBak1ctpuiHsSMCSTp/view"
+            },
+            {
+                "name": "Bitmasks",
+                "id": "INCA02-bitmasks",
+                "link": "https://drive.google.com/file/d/1s_dzHiihwcMCXH8lGTmJlabsj57H07tx/view"
+            },
+            {
+                "name": "Binary Search",
+                "id": "INCA02-binarysearch",
+                "link": "https://drive.google.com/file/d/1Xbjb-bCrjBRV9SvQbUbyimViolTuBAav/view"
+            },
+            {
+                "name": "Backtracking",
+                "id": "INCA02-backtracking",
+                "link": "https://drive.google.com/file/d/1f8qvTuyqiSFq7M3BtVuo9gUeRM7RBJ6b/view"
+            },
+            {
+                "name": "Introduction to Graphs",
+                "id": "INCA02-graph",
+                "link": "https://drive.google.com/file/d/1EH5eVUAYWLIEwDKc4f3O3YVd_LWLxq_I/view"
+            },
+            {
+                "name": "Venice Technique",
+                "id": "INCA02-venice",
+                "link": "https://drive.google.com/file/d/1yPGJgatQhSIhiYDyPgd8u11noFBY_9Am/view"
+            },
+            {
+                "name": "Meet in the Middle",
+                "id": "INCA02-meetinthemiddle",
+                "link": "https://drive.google.com/file/d/1Gc3yydM6YZ6fZPIlmuMviHLBmhYjZ9Mb/view"
+            }
+        ]
+    },
+    {
+        "name": "Incarnadine IV",
+        "units": [
+            {
+                "name": "Dynamic Programming on Trees",
+                "id": "INCA04-trees-dp",
+                "link": "https://drive.google.com/file/d/1ZFr5ztgKUOoWi19VAhiO-gJG5tWCXEaC/view"
+            },
+            {
+                "name": "Ternary Search",
+                "id": "INCA04-ternary-search",
+                "link": "https://drive.google.com/file/d/1_PoGrGClfSGvXID1gI42ltxwo0ZQD6pu/view"
+            },
+            {
+                "name": "Shortest Path Algorithms",
+                "id": "INCA04-shortestpaths",
+                "link": "https://drive.google.com/file/d/11UQVo2iXsX7u9M71tunjUfsgvw9AvC-f/view"
+            },
+            {
+                "name": "Square Root Tricks",
+                "id": "INCA04-sqrt",
+                "link": "https://drive.google.com/file/d/1IoIcX1q9pxwY3NMLphWq1CFtpiilURpu/view"
+            },
+            {
+                "name": "Segment Trees",
+                "id": "INCA04-segtree",
+                "link": "https://drive.google.com/file/d/1hUJoq8fbGvvhb2XvuABNX4lmhfMWo-Di/view"
+            },
+            {
+                "name": "Interactive Problems",
+                "id": "INCA04-interactive",
+                "link": "https://drive.google.com/file/d/1gyaqYk6Gz5zrdRtNfA36kU53gxFLxHUL/view"
+            },
+            {
+                "name": "Algebraic Inequalities",
+                "id": "INCA04-inequalities",
+                "link": "https://drive.google.com/file/d/1y28dj39tPzTKMQVGyUmMB-hdnVl6vFgV/view"
+            },
+            {
+                "name": "IMO Combinatorics",
+                "id": "INCA04-IMO",
+                "link": "https://drive.google.com/file/d/1IaPsnZEF3TCFwrkv8Yg9c3HLoFr2Grdh/view"
+            },
+            {
+                "name": "Computational Geometry",
+                "id": "INCA04-geometry",
+                "link": "https://drive.google.com/file/d/15tp7LuUiKNcChAT_jhm0TRml-4yMzkUu/view"
+            },
+            {
+                "name": "Game Theory",
+                "id": "INCA04-gametheory",
+                "link": "https://drive.google.com/file/d/1vMuKD9qmCDfynHNqn7-gcfj61ytC_FN0/view"
+            },
+            {
+                "name": "Eratosthenes Sieve",
+                "id": "INCA04-eratosthenes",
+                "link": "https://drive.google.com/file/d/1pJz-YKCocHT0injrNBgGxWhsr7v7hFd1/view"
+            },
+            {
+                "name": "Graph Traversal Algorithms",
+                "id": "INCA04-dfs-bfs",
+                "link": "https://drive.google.com/file/d/1T-_D2PkgU9jZX1koy2g51TG3kpBuNnc8/view"
+            },
+            {
+                "name": "Coordinate Compression",
+                "id": "INCA04-coordinatecompression",
+                "link": "https://drive.google.com/file/d/1kfDIhO9eGG4FeR7XJ76NwsBOY13s70Pl/view"
+            }
+        ]
+    },
+    {
+        "name": "Incarnadine IIX",
+        "units": [
+            {
+                "name": "The Secret Unit",
+                "id": "INCA08-secretunit",
+                "link": "https://drive.google.com/file/d/1FiGwrsSLc87TOQ5uJGP2hXMmuK-nNvIC/view"
+            }
+        ]
     }
 ]
